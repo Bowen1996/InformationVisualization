@@ -1,0 +1,248 @@
+/*#form1{*/
+    /*position: absolute;*/
+    /*left: 90px;*/
+    /*top: 566px;*/
+/*}*/
+/*body>p:nth-child(2){*/
+    /*position: absolute;*/
+    /*left: 40px;*/
+    /*top: 550px;*/
+/*}*/
+
+body{
+    background: rgba(37, 41, 53, 1);
+    color:white;
+    overflow: hidden;
+}
+p{
+    line-height: 25px;
+}
+
+.champion{
+    font-size: 15px;
+}
+/*#div2{*/
+    /*position: absolute;*/
+    /*left: 170px;*/
+    /*top: 535px;*/
+/*}*/
+
+.content{
+    font-size: 12px;
+}
+.title_p{
+    font-size: 14px;
+    font-weight: bold;
+}
+body>p:nth-child(6){
+    position: absolute;
+    left:40px;
+    top:590px;
+}
+#select1{
+    position: relative;
+    left: 330px;
+    top: 18px;
+    background:url("../images/bg45_2.jpg") repeat-x right top;
+    color:white;
+    width: 100px;
+    height: 20px;
+}
+#search{
+    position:relative;
+    left: 350px;
+    top: 16px;
+    width: 80px;
+    background:url("../images/bg45_1.jpg") repeat-x left top;
+    border-color: rgba(37, 41, 53, 1);
+    height: 23px;
+    color:white;
+}
+
+#reset{
+    position: relative;
+    left: 360px;
+    top: 16px;
+    width: 80px;
+    background:url("../images/bg45_1.jpg") repeat-x left top;
+    border-color: rgba(37, 41, 53, 1);
+    height: 23px;
+    color:white;
+}
+#div3{
+    border:1px solid rgb(20,23,34) ;
+    font-size: 14px;
+    width: 1240px;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-flow: row;
+    color:white;
+    box-shadow:3px 3px 4px #000;
+}
+#form1{
+    position: relative;
+    left: 10px;
+    top: 18px;
+}
+#div3>p:nth-child(3){
+    position: relative;
+    left: 25px;
+}
+
+#div3>p:nth-child(5){
+    position: relative;
+    left: 325px;
+}
+#div3>p:nth-child(9){
+    position: relative;
+    right: 300px;
+}
+
+#select2{
+    position: relative;
+    top: 18px;
+    height: 20px;
+    width: 140px;
+    background:url("../images/bg45_2.jpg") repeat-x left top;
+    color:white;
+    right: 295px;
+}
+
+#list{
+    position: relative;
+    right: 280px;
+    top: 16px;
+    width: 80px;
+    background:url("../images/bg45_1.jpg") repeat-x left top;
+    border-color: rgba(37, 41, 53, 1);
+    height: 23px;
+    color:white;
+}
+.div1{
+    position: absolute;
+    top: 90px;
+    left: 730px;
+    width: 480px;
+    height: 550px;
+    overflow:auto;
+    border:1px solid rgb(20,23,34) ;
+    margin-right: 2px;
+    padding-left:15px;
+    padding-right:15px;
+    box-shadow:-3px -3px 4px #000;
+}
+
+#div4{
+    position: absolute;
+    top: 90px;
+    /*left: 730px;*/
+    left: 30000px;
+    width: 480px;
+    height: 550px;
+    overflow:auto;
+    border:1px solid rgb(20,23,34) ;
+    margin-right: 2px;
+    padding-left:15px;
+    padding-right:15px;
+    box-shadow:-3px -3px 4px #000;
+}
+
+#div4>h3{
+    width: 250px;
+    margin: 20px auto;
+}
+
+#div4_1{
+    /*width: 300px;*/
+    width: 400px;
+    height: 980px;
+    /*border: 1px solid white;*/
+    position: relative;
+    /*bottom: 920px;*/
+    top: 10px;
+    /*left: 150px;*/
+    left: 20px;
+
+}
+
+#div4>ol>li{
+    margin-bottom: 20px;
+}
+
+#div1_detail{
+    opacity: 1;
+}
+
+#div2{
+    position: relative;
+    left:30px;
+    top: 19px;
+    width: 80px;
+}
+
+#img_c{
+    width: 180px;
+    height: 130px;
+    position: relative;
+    left: 280px;
+    top: -1030px;
+}
+
+#img_b{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 98px;
+    top: -850px;
+}
+#img_s{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 280px;
+    top: -830px;
+}
+#img_g{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 98px;
+    top: -640px;
+}
+#img_p{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 280px;
+    top: -620px;
+}
+#img_d{
+    width: 180px;
+    height: 150px;
+    position: relative;
+    left: 98px;
+    top: -440px;
+}
+
+.panel_content{
+    opacity: 0;
+}
+
+#graph{
+    width: 200px;
+    height: 200px;
+    padding-top: 100px;
+    background:url("../images/circleGraph.png");
+    opacity: 0.5;
+    position: absolute;
+    left: 1070px;
+    top: 450px;
+    border-color: transparent;
+    cursor: pointer;
+}
+#graph:hover{
+    opacity: 1;
+}
+

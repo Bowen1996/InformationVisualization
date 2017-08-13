@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+    <style>
+
+        svg {
+            font: 10px sans-serif;
+        }
+
+        .background path {
+            fill: none;
+            stroke: #ddd;
+            shape-rendering: crispEdges;
+        }
+
+        .foreground path {
+            fill: none;
+            /*stroke: steelblue;*/
+        }
+
+        .brush .extent {
+            fill-opacity: .3;
+            stroke: #fff;
+            shape-rendering: crispEdges;
+        }
+
+        .axis line,
+        .axis path {
+            fill: none;
+            stroke: white;
+            shape-rendering: crispEdges;
+        }
+
+        .axis text {
+            text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, 0 -1px 0 #fff, -1px 0 0 #fff;
+            cursor: move;
+        }
+
+        #title{
+            color:#fffea4;
+        }
+    </style>
+    <link rel="stylesheet" href="stylesheets/parallel_style.css">
+</head>
+<body>
+    <div class="div1" style="" id="div1_detail">
+        <p id="championName" class="panel_content">Champion: </p>
+        <span class="title_p panel_content">Overall</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <span class="title_p panel_content">Bronze</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <span class="title_p panel_content">Silver</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <span class="title_p panel_content">Gold</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <span class="title_p panel_content">Platinum</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <span class="title_p panel_content">Diamond</span>
+        <hr class="panel_content">
+        <p class="content panel_content">
+            Win Rate:<br>
+            Games Played:<br>
+            K/D/A:<br>
+            CS:<br>
+            Gold Earned:
+        </p>
+        <img src="images/Malphite.jpg" alt="" id="img_c" class="panel_content">
+        <img src="images/bronze.png" alt="" id="img_b" class="panel_content">
+        <img src="images/silver.png" alt="" id="img_s" class="panel_content">
+        <img src="images/gold.png" alt="" id="img_g" class="panel_content">
+        <img src="images/platinum.png" alt="" id="img_p" class="panel_content">
+        <img src="images/diamond.png" alt="" id="img_d" class="panel_content">
+    </div>
+
+    <div id="div3">
+        <p>Lane: </p>
+        <form action="" id="form1">
+            <input type="checkbox" id="checkbox1" name="cb" value="Top" checked class="lane">
+            <label for="checkbox1">Top</label>
+            <input type="checkbox" id="checkbox2" name="cb" value="Jungle" checked class="lane">
+            <label for="checkbox2">Jungle</label>
+            <input type="checkbox" id="checkbox3" name="cb" value="Mid" checked class="lane">
+            <label for = "checkbox3">Mid</label>
+            <input type="checkbox" id="checkbox4" name="cb" value="ADC"  checked class="lane">
+            <label for="checkbox4">ADC</label>
+            <input type="checkbox" id="checkbox5" name="cb" value="Support" checked class="lane">
+            <label for="checkbox5">Support</label>
+        </form>
+        <p class="champion">Current Champion: </p>
+        <div id="div2"></div>
+        <p>Champions: </p>
+        <select name="" id="select1" value="Malphite">
+            <option value="Malphite">Malphite</option>
+            <option value="Yorick">Yorick</option>
+            <option value="Tryndamere">Tryndamere</option>
+            <option value="Quinn">Quinn</option>
+            <option value="Kled">Kled</option>
+            <option value="Shaco">Shaco</option>
+            <option value="Ivern">Ivern</option>
+            <option value="Xin Zhao">Xin Zhao</option>
+            <option value="Zac">Zac</option>
+            <option value="Amumu">Amumu</option>
+            <option value="Swain">Swain</option>
+            <option value="Anivia">Anivia</option>
+            <option value="Ahri">Ahri</option>
+            <option value="Fizz">Fizz</option>
+            <option value="Vel'Koz">Vel'Koz</option>
+            <option value="Ziggs">Ziggs</option>
+            <option value="Kog'Maw">Kog'Maw</option>
+            <option value="Twitch">Twitch</option>
+            <option value="Vayne">Vayne</option>
+            <option value="Caitlyn">Caitlyn</option>
+            <option value="Sona">Sona</option>
+            <option value="Janna">Janna</option>
+            <option value="Blitzcrank">Blitzcrank</option>
+            <option value="Soraka">Soraka</option>
+            <option value="Nami">Nami</option>
+        </select>
+
+        <input type="button" value="Search" id="search">
+        <input type="button" value="Reset" id="reset">
+        <p>Sort by: </p>
+        <select name="" id="select2">
+            <option value="Win Rate">Overall Win Rate</option>
+            <option value="Games Played">Overall Games Play</option>
+            <option value="K/D/A">Overall K/D/A</option>
+            <option value="CS">Overall Creep score</option>
+            <option value="Gold Earned">Overall Gold Earned</option>
+            <option value="Win Rate_Bronze">Bronze Win Rate</option>
+            <option value="Games Played_Bronze">Bronze Games Play</option>
+            <option value="K/D/A_Bronze">Bronze K/D/A</option>
+            <option value="CS_Bronze">Bronze Creep score</option>
+            <option value="Gold Earned_Bronze">Bronze Gold Earned</option>
+            <option value="Win Rate_Silver">Silver Win Rate</option>
+            <option value="Games Played_Silver">Silver Games Play</option>
+            <option value="K/D/A_Silver">Silver K/D/A</option>
+            <option value="CS_Silver">Silver Creep score</option>
+            <option value="Gold Earned_Silver">Silver Gold Earned</option>
+            <option value="Win Rate_Gold">Gold Win Rate</option>
+            <option value="Games Played_Gold">Gold Games Play</option>
+            <option value="K/D/A_Gold">Gold K/D/A</option>
+            <option value="CS_Gold">Gold Creep score</option>
+            <option value="Gold Earned_Gold">Gold Gold Earned</option>
+            <option value="Win Rate_Platinum">Platinum Win Rate</option>
+            <option value="Games Played_Platinum">Platinum Games Play</option>
+            <option value="K/D/A_Platinum">Platinum K/D/A</option>
+            <option value="CS_Platinum">Platinum Creep score</option>
+            <option value="Gold Earned_Platinum">Platinum Gold Earned</option>
+            <option value="Win Rate_Diamond">Diamond Win Rate</option>
+            <option value="Games Played_Diamond">Diamond Games Play</option>
+            <option value="K/D/A_Diamond">Diamond K/D/A</option>
+            <option value="CS_Diamond">Diamond Creep score</option>
+            <option value="Gold Earned_Diamond">Diamond Gold Earned</option>
+        </select>
+        <input type="button" value="Top list" id="list">
+    </div>
+
+    <div id="div4">
+        <h3>Top list of League of Legends</h3>
+        <!--<ol>-->
+            <!--<li class="order">Tryndamere: </li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+            <!--<li class="order"></li>-->
+        <!--</ol>-->
+        <div id="div4_1" style="overflow: hidden;">
+
+        </div>
+    </div>
+    <input type="button" value="" id="graph" onclick="jump()">
+
+<script src="//d3js.org/d3.v3.min.js"></script>
+<script>
+    var passName;
+    var passValue;
+    var receiveData;
+    var receiveName;
+    var receiveValue;
+    var tempValue = "";
+    var list = document.getElementById("list");
+    if(document.URL.split("?")[1].split("_").length == 3) {
+        receiveData = document.URL.split("?")[1].split("_");
+        receiveName = receiveData[1];
+        receiveValue = receiveData[2];
+        tempValue = "";
+        for (var i = 0; i < receiveValue.length; i++) {
+            if (receiveValue[i] != '2' && receiveValue[i] != '0' && receiveValue[i] != '%') {
+                tempValue += receiveValue[i];
+            }
+            if (receiveValue[i] == "%") {
+                tempValue += " ";
+            }
+        }
+        receiveValue = tempValue;
+        var receiveRank = receiveData[0];
+    }
+    function jump(){
+        window.location.href="projectcircle.html";
+    }
+    var margin = {top: 35, right: 10, bottom: 10, left: -20},
+        width = 735 - margin.left - margin.right,
+        height = 570 - margin.top - margin.bottom;
+
+    var x = d3.scale.ordinal().rangePoints([0, width], 1),
+        y = {},
+        dragging = {};
+
+    var line = d3.svg.line(),
+        axis = d3.svg.axis().orient("left"),
+        background,
+        foreground;
+
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    var color = ["rgb(0,70,172)", "rgb(65,102,246)", "rgb(119,182,255)", "rgb(1,186,246)", "rgb(5,22,88)",
+        "rgb(255,153,18)", "rgb(255,215,0)", "rgb(255,97,0)", "rgb(237,145,33)", "rgb(255,128,0)",
+        "rgb(34,139,34)", "rgb(124,252,0)", "rgb(50,205,50)", "rgb(46,139,87)", "rgb(0,255,127)",
+        "rgb(160,32,240)", "rgb(138,43,226)", "rgb(160,102,211)", "rgb(218,112,214)", "rgb(221,160,221)",
+        "rgb(227,23,13)", "rgb(178,34,34)", "rgb(139,69,19)", "rgb(115,74,18)", "rgb(160,82,45)"
+                ];
+    var championColor = {};
+    var index1 = 0;
+    var index2 = 0;
+    var index3 = 0;
+    var index4 = 0;
+    var index5 = 0;
+    var index = 0;
+
+    var championInfo = {};
+
+    var tooltip = d3.select("#div2")
+        .attr("class", "tooltip")
+        .style("opacity", 1);
+
+
+    d3.csv("data/LOLData.csv", function(error, cars) {
+
+        // Extract the list of dimensions and create a scale for each.
+        x.domain(dimensions = d3.keys(cars[0]).filter(function(d) {
+//            return d != "Lane" &&  (d != "Champion") && (y[d] = d3.scale.linear()
+//                    .domain(d3.extent(cars, function(p) { return +p[d]; }))
+//                    .range([height, 0]));
+            //championColor[
+            return d != "Lane" &&  (d != "Champion") &&(d != "Games Played") &&(d != "K/D/A")
+                &&(d != "CS")&&(d != "Gold Earned")&&(d != "Games Played_Bronze")
+                &&(d != "K/D/A_Bronze")&&(d != "CS_Bronze")&&(d != "Gold Earned_Bronze")
+                &&(d != "Games Played_Silver")&&(d != "K/D/A_Silver")&&(d != "CS_Silver")
+                &&(d != "Gold Earned_Silver")&&(d != "Games Played_Gold")
+                &&(d != "K/D/A_Gold")&&(d != "CS_Gold")&&(d != "Gold Earned_Gold")
+                &&(d != "Games Played_Platinum")&&(d != "K/D/A_Platinum")&&(d != "CS_Platinum")
+                &&(d != "Gold Earned_Platinum")&&(d != "Games Played_Diamond")
+                &&(d != "K/D/A_Diamond")&&(d != "CS_Diamond")&&(d != "Gold Earned_Diamond")&& (y[d] = d3.scale.linear()
+                    .domain(d3.extent(cars, function(p) { return +p[d]; }))
+                    .range([height, 0]));
+        }));
+        // Add grey background lines for context.
+//        background = svg.append("g")
+//            .attr("class", "background")
+//            .selectAll("path")
+//            .data(cars)
+//            .enter().append("path")
+//            .attr("d", path);
+//        alert("index: " + index1);
+        // Add blue foreground lines for focus.
+        foreground = svg.append("g")
+            .attr("class", "foreground")
+            .selectAll("path")
+            .data(cars)
+            .enter().append("path")
+            .attr("fill", function(d){
+                championInfo[d["Champion"]] = {};
+                championInfo[d["Champion"]]["winRate"] = d["Win Rate"];
+                championInfo[d["Champion"]]["gamePlayed"] = d["Games Played"];
+                championInfo[d["Champion"]]["kda"] = d["K/D/A"];
+                championInfo[d["Champion"]]["cs"] = d["CS"];
+                championInfo[d["Champion"]]["goldEarned"] = d["Gold Earned"];
+                championInfo[d["Champion"]]["winRateB"] = d["Win Rate_Bronze"];
+                championInfo[d["Champion"]]["gamePlayedB"] = d["Games Played_Bronze"];
+                championInfo[d["Champion"]]["kdaB"] = d["K/D/A_Bronze"];
+                championInfo[d["Champion"]]["csB"] = d["CS_Bronze"];
+                championInfo[d["Champion"]]["goldEarnedB"] = d["Gold Earned_Bronze"];
+                championInfo[d["Champion"]]["winRateS"] = d["Win Rate_Silver"];
+                championInfo[d["Champion"]]["gamePlayedS"] = d["Games Played_Silver"];
+                championInfo[d["Champion"]]["kdaS"] = d["K/D/A_Silver"];
+                championInfo[d["Champion"]]["csS"] = d["CS_Silver"];
+                championInfo[d["Champion"]]["goldEarnedS"] = d["Gold Earned_Silver"];
+                championInfo[d["Champion"]]["winRateG"] = d["Win Rate_Gold"];
+                championInfo[d["Champion"]]["gamePlayedG"] = d["Games Played_Gold"];
+                championInfo[d["Champion"]]["kdaG"] = d["K/D/A_Gold"];
+                championInfo[d["Champion"]]["csG"] = d["CS_Gold"];
+                championInfo[d["Champion"]]["goldEarnedG"] = d["Gold Earned_Gold"];
+                championInfo[d["Champion"]]["winRateP"] = d["Win Rate_Platinum"];
+                championInfo[d["Champion"]]["gamePlayedP"] = d["Games Played_Platinum"];
+                championInfo[d["Champion"]]["kdaP"] = d["K/D/A_Platinum"];
+                championInfo[d["Champion"]]["csP"] = d["CS_Platinum"];
+                championInfo[d["Champion"]]["goldEarnedP"] = d["Gold Earned_Platinum"];
+                championInfo[d["Champion"]]["winRateD"] = d["Win Rate_Diamond"];
+                championInfo[d["Champion"]]["gamePlayedD"] = d["Games Played_Diamond"];
+                championInfo[d["Champion"]]["kdaD"] = d["K/D/A_Diamond"];
+                championInfo[d["Champion"]]["csD"] = d["CS_Diamond"];
+                championInfo[d["Champion"]]["goldEarnedD"] = d["Gold Earned_Diamond"];
+                if(d["Lane"] == "Top"){
+                    championColor[d["Champion"]] = color[index1++];
+                }else if(d["Lane"] == "Jungle"){
+                    championColor[d["Champion"]] = color[5 + index2++];
+                }else if(d["Lane"] == "Mid"){
+                    championColor[d["Champion"]] = color[10 + index3++];
+                }else if(d["Lane"] == "ADC"){
+                    championColor[d["Champion"]] = color[15 + index4++];
+                }else if(d["Lane"] == "Support"){
+                    championColor[d["Champion"]] = color[20 + index5++];
+                }
+                return "none";
+            })
+            .attr("stroke", function (d) {
+                return championColor[d["Champion"]];
+            })
+            .on("mouseover", function (d) {
+                tooltip.transition()
+                    .duration(2)
+                    .style("opacity", .9);
+                tooltip.html(d["Champion"])
+            })
+            .on("mouseout", function(d) {
+                tooltip.transition()
+                    .duration(5000)
+                    .style("opacity", 0);
+            })
+
+//            .style("opacity", function (d) {
+//                if(d["Champion"] == "Malphite"){
+//                    return 0.2;
+//                }else{
+//                    return 1;
+//                }
+//            })
+            .attr("d", path);
+
+        // Add a group element for each dimension.
+        var g = svg.selectAll(".dimension")
+            .data(dimensions)
+            .enter().append("g")
+            .attr("class", "dimension")
+            .attr("transform", function(d) { return "translate(" + x(d) + ")"; })
+            .call(d3.behavior.drag()
+                .origin(function(d) {return {x: x(d)}; })
+                .on("dragstart", function(d) {
+                    dragging[d] = x(d);
+                    background.attr("visibility", "hidden");
+                })
+                .on("drag", function(d) {
+                    dragging[d] = Math.min(width, Math.max(0, d3.event.x));
+                    foreground.attr("d", path);
+                    dimensions.sort(function(a, b) { return position(a) - position(b); });
+                    x.domain(dimensions);
+                    g.attr("transform", function(d) { return "translate(" + position(d) + ")"; })
+                })
+                .on("dragend", function(d) {
+                    delete dragging[d];
+                    transition(d3.select(this)).attr("transform", "translate(" + x(d) + ")");
+                    transition(foreground).attr("d", path);
+                    background
+                        .attr("d", path)
+                        .transition()
+                        .delay(500)
+                        .duration(0)
+                        .attr("visibility", null);
+                }));
+
+        // Add an axis and title.
+        g.append("g")
+            .attr("class", "axis")
+            .attr("id", "title")
+            .each(function(d) {d3.select(this).call(axis.scale(y[d])); })
+            .append("text")
+            .style("text-anchor", "middle")
+            .attr("y", -9)
+            .text(function(d) {return d + "(%)"; });
+
+        // Add and store a brush for each axis.
+        g.append("g")
+            .attr("class", "brush")
+            .each(function(d) {
+                d3.select(this).call(y[d].brush = d3.svg.brush().y(y[d]).on("brushstart", brushstart).on("brush", brush));
+            })
+            .selectAll("rect")
+            .attr("x", -8)
+            .attr("width", 16);
+
+        var lane = document.getElementsByClassName("lane");
+
+        d3.select("#checkbox1").on("change",update_cb);
+        d3.select("#checkbox2").on("change",update_cb);
+        d3.select("#checkbox3").on("change",update_cb);
+        d3.select("#checkbox4").on("change",update_cb);
+        d3.select("#checkbox5").on("change",update_cb);
+
+        function update_cb(){
+            if(lane[0].checked){
+                foreground.attr("stroke", function (d){
+                    if(d["Lane"] == "Top"){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Jungle" && lane[1].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Jungle" && !lane[1].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "Mid" && lane[2].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Mid" && !lane[2].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "ADC" && lane[3].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "ADC" && !lane[3].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "Support" && lane[4].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Support" && !lane[4].checked){
+                        return "transparent";
+                    }
+
+                })
+            }else{
+                foreground.attr("stroke", function (d){
+                    if(d["Lane"] == "Top"){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "Jungle" && lane[1].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Jungle" && !lane[1].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "Mid" && lane[2].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Mid" && !lane[2].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "ADC" && lane[3].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "ADC" && !lane[3].checked){
+                        return "transparent";
+                    }
+                    if(d["Lane"] == "Support" && lane[4].checked){
+                        return championColor[d["Champion"]];
+                    }
+                    if(d["Lane"] == "Support" && !lane[4].checked){
+                        return "transparent";
+                    }
+                })
+            }
+
+        }
+        var drop = document.getElementById("select1");
+        var championName = document.getElementById("championName");
+        var content = document.getElementsByClassName("content");
+        var panel = document.getElementsByClassName("div1");
+        var championImg = document.getElementById("img_c");
+        var hidden = document.getElementsByClassName("panel_content")
+        var div1 = document.getElementById("div1_detail");
+        d3.select("#search")
+            .on("click", function(d){
+                div1.style.left = "730px";
+                div4.style.left = "30000px";
+                championImg.src = "images/" + drop.value + ".jpg";
+                championName.innerHTML = "Champion: &nbsp&nbsp&nbsp&nbsp&nbsp" + drop.value;
+                content[0].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRate"] + "%<br>"
+                                        + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayed"]
+                                        + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kda"]
+                                        + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["cs"]
+                                        + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarned"];
+                content[1].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRateB"] + "%<br>"
+                    + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayedB"]
+                    + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kdaB"]
+                    + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["csB"]
+                    + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarnedB"];
+                content[2].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRateS"] + "%<br>"
+                    + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayedS"]
+                    + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kdaS"]
+                    + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["csS"]
+                    + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarnedS"];
+                content[3].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRateG"] + "%<br>"
+                    + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayedG"]
+                    + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kdaG"]
+                    + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["csG"]
+                    + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarnedG"];
+                content[4].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRateP"] + "%<br>"
+                    + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayedP"]
+                    + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kdaP"]
+                    + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["csP"]
+                    + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarnedP"];
+                content[5].innerHTML = "Win Rate: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["winRateD"] + "%<br>"
+                    + "Games Played: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["gamePlayedD"]
+                    + "<br>Kills/Deaths/Assists: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["kdaD"]
+                    + "<br>Creep score: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["csD"]
+                    + "<br>Gold Earned: &nbsp&nbsp&nbsp&nbsp&nbsp" + championInfo[drop.value]["goldEarnedD"];
+                d3.selectAll(".panel_content")
+                    .style("opacity", "1");
+                //panel[1].style.opacity = 0;
+                foreground.style("opacity", function(d){
+                    return d["Champion"] == drop.value ? 1 : 0.1;
+                });
+            });
+        var cb = document.getElementsByName("cb");
+        d3.select("#reset")
+            .on("click", function(d){
+                for (var i = 0; i < cb.length; i++){
+                    cb[i].checked = true;
+                }
+                update_cb();
+                div1.style.left = "730px";
+                div4.style.left = "30000px";
+                d3.selectAll(".panel_content")
+                    .style("opacity", "0");
+
+                //panel[1].style.opacity = 1;
+                foreground.style("opacity", function(d){
+                    return 1;
+                });
+            });
+
+
+
+        var div4 = document.getElementById("div4");
+        var arrList = [];
+        var arrList1= [];
+        var arrList2 = [];
+        var sort = document.getElementById("select2");
+        var first = true;
+        var canvas;
+        //var topList = document.getElementsByClassName("order");
+
+
+        d3.select("#list")
+            .on("click", function(d){
+                var a = 0;
+                div1.style.left = "30000px";
+                div4.style.left = "730px";
+                foreground.style("opacity", function(d){
+                    arrList[a] = {};
+                    arrList[a].value = parseFloat(d[sort.value]);
+                    arrList[a++].name = d["Champion"];
+                    //alert(+d[sort.value]);
+                    return 1;
+                });
+                arrList = sortArr(arrList);
+
+                for(var i = 0; i < arrList.length; i++){
+                    //topList[i].innerHTML = arrList[i].name + ": ";
+                    arrList1[i] = arrList[i].name;
+                    arrList2[i] = arrList[i].value;
+                }
+
+                if(!first){
+                    canvas.remove();
+                }
+                first = false;
+                var rank = 1;
+                var xscale = d3.scale.linear()
+                    .domain([0,arrList2[0] * 2.5])
+                    .range([0,400]);
+
+                var yscale = d3.scale.linear()
+                    .domain([0,arrList1.length])
+                    .range([0,900]);
+
+
+                canvas = d3.select('#div4_1')
+                    .append('svg')
+                    .attr("id", "svg1")
+                    .attr({'width':400,'height':900});
+//                var	yAxis = d3.svg.axis();
+//                yAxis
+//                    .orient('left')
+//                    .scale(yscale)
+//                    .tickSize(0)
+//                    .tickFormat(function(d,i){ return arrList1[i]; })
+//                    .tickValues(d3.range(50));
+
+//                var y_xis = canvas.append('g')
+//                    .attr("transform", "translate(100,30)")
+//                    .attr('id','yaxis')
+//                    .style("font-size", "15px")
+//                    .style("fill", "white")
+//                    .call(yAxis);
+                var chart = canvas.append('g')
+                    .attr("transform", "translate(130,0)")
+                    .attr('id','bars')
+                    .selectAll('.rect1')
+                    .data(arrList2)
+                    .enter()
+                    .append('rect')
+                    .attr("class", "rect1")
+                    .attr("id", function(d, i){
+                        return "rect_" + i;
+                    })
+                    .attr('height',19)
+                    .attr({'x':0,'y':function(d,i){ return yscale(i)+19; }})
+                    .style('fill',"steelblue")
+                    .style("stroke", "black")
+                    .attr('width',function(d){ return 0; })
+                    .on("click", function(d){
+                        //var id_index = this.id.substring(this.id.length - 1, this.id.length);
+                        var id_index = this.id.split("_")[1];
+//                        alert(arrList1[id_index]);
+//                        for(var i = 0; i < arrList.length; i++){
+//                            if(arrList[i].value == d){
+//                                passName = arrList[i].name;
+//                            }
+//                        }
+                        passName = arrList[id_index].name;
+//                        var current = d;
+                        passValue = d;
+                        chart.style("fill", "steelblue");
+                        d3.select("#" + this.id).style("fill", 'green');
+//                        chart.style("fill", function(d){
+//                            if(current == d){
+//                                return "green";
+//                            }else{
+//                                return "steelblue";
+//                            }
+//                        });
+                        rank = 1 ;
+                        var count = 0;
+                        transitext.text(function(d){ return (d+ ((sort.value == "Win Rate" || sort.value == "Win Rate_Bronze" ||
+                        sort.value == "Win Rate_Silver" || sort.value == "Win Rate_Gold" || sort.value == "Win Rate_Platinum"
+                        || sort.value == "Win Rate_Diamond")? "%" : "")); }).style({'fill':function(d){
+                            return count++ == id_index ? "green" : "white";
+                        },'font-size':'13px'});
+                        transitext2.text(function(d){  return ((rank++) - 0) + ". " + d+ ": "; }).style({'fill':function(d){
+                            return d == passName ? "green" : "white";
+                        },'font-size':'13px'});
+
+                    });
+
+
+                var transit = d3.select("#svg1").selectAll(".rect1")
+                    .data(arrList2)
+                    .transition()
+                    .duration(1000)
+                    .attr("width", function(d) {return xscale(d); });
+
+                var transitext = d3.select('#bars')
+                    .selectAll('.text1')
+                    .data(arrList2)
+                    .enter()
+                    .append('text')
+                    .attr('class', "text1")
+                    .attr({'x':function(d) {return 200; },'y':function(d,i){ return yscale(i)+35; }})
+                    .text(function(d){ return (d+ ((sort.value == "Win Rate" || sort.value == "Win Rate_Bronze" ||
+                    sort.value == "Win Rate_Silver" || sort.value == "Win Rate_Gold" || sort.value == "Win Rate_Platinum"
+                        || sort.value == "Win Rate_Diamond")? "%" : "")); }).style({'fill':'#fff','font-size':'13px'})
+                var transitext2 = d3.select('#bars')
+                    .selectAll('.text2')
+                    .data(arrList1)
+                    .enter()
+                    .append('text')
+                    .attr('class','text2')
+                    .attr({'x':function(d) {return -100; },'y':function(d,i){ return yscale(i)+34; }})
+                    .text(function(d){ return (rank++) + ". " + d+ ": "; }).style({'fill':'#fff','font-size':'13px'})
+
+            });
+
+        function sortArr(arr){
+            var max = 0;
+            var temp;
+            var maxIndex = 0;
+            for(var i = 0; i < arr.length; i++){
+                max = arr[i].value;
+                temp = arr[i];
+                maxIndex = i;
+                for(var j = i + 1; j < arr.length; j++){
+                    if (arr[j].value > max){
+                        max = arr[j].value;
+                        temp = arr[j];
+                        maxIndex = j;
+                    }
+                }
+                arr[maxIndex] = arr[i];
+                arr[i] = temp;
+            }
+            return arr;
+        }
+
+        if(tempValue != ""){
+            sort.value = receiveValue + "_" + receiveRank;
+            list.click();
+            var index_selected = 0;
+            for(var i = 0; i < arrList1.length; i++){
+                if(arrList1[i] == receiveName){
+                    index_selected = i;
+                }
+            }
+            d3.select("#" + "rect_" + index_selected).style("fill", "green");
+            var text1 = document.getElementsByClassName("text1");
+            text1[index_selected].style.fill = "green";
+            var text2 = document.getElementsByClassName("text2");
+            text2[index_selected].style.fill = "green";
+        }
+    });
+
+    function position(d) {
+        var v = dragging[d];
+        return v == null ? x(d) : v;
+    }
+
+    function transition(g) {
+        return g.transition().duration(500);
+    }
+
+    // Returns the path for a given data point.
+    function path(d) {
+        return line(dimensions.map(function(p) { return [position(p), y[p](d[p])]; }));
+    }
+
+    function brushstart() {
+        d3.event.sourceEvent.stopPropagation();
+    }
+
+    // Handles a brush event, toggling the display of foreground lines.
+    function brush() {
+        var actives = dimensions.filter(function(p) { return !y[p].brush.empty(); }),
+            extents = actives.map(function(p) { return y[p].brush.extent(); });
+        foreground.style("display", function(d) {
+            return actives.every(function(p, i) {
+                return extents[i][0] <= d[p] && d[p] <= extents[i][1];
+            }) ? null : "none";
+        });
+    }
+
+</script>

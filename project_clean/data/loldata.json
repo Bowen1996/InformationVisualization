@@ -1,0 +1,1926 @@
+{
+
+    "children": [
+        {      "name": "Click The Big Circle To Begin!", "children": [
+            {
+                "name": "Diamond",
+                "children": [
+                    {
+                        "name": "top",
+                        "children": [
+                            {
+                                "name": "Malphite","children": [
+
+                                { "name": "Win Rate","children":
+                                [{"name": "Win Rate:51%", "size": 51}]},
+                                { "name": "Games Played", "children":
+                                [{ "name": "Games Played:4778", "size": 4778}]},
+                                { "name": "K/D/A", "children":
+                                [{ "name": "K/D/A:2.86", "size": 286}]},
+                                { "name": "CS","children":
+                                [{ "name": "CS:174.33", "size": 174.33}]},
+                                {"name": "Gold Earned","children":
+                                [{ "name": "Gold Earned:11268", "size": 11268}]}
+
+                            ]},
+                            {"name": "Yorick", "children": [
+
+                                { "name": "Win Rate", "children":
+                                [{"name": "Win Rate:49.82%", "size": 49.82}]},
+                                { "name": "Games Played", "children":
+                                [{ "name": "Games Played:1664", "size": 1664}]},
+                                { "name": "K/D/A","children":
+                                [{ "name": "K/D/A:1.94", "size": 194}]},
+                                { "name": "CS","children":
+                                [{ "name": "CS:198.84", "size": 198.84}]},
+                                {"name": "Gold Earned","children":
+                                [{ "name": "Gold Earned:11773", "size": 11773}]}
+
+                            ]},
+                            {"name": "Tryndamere","children": [
+
+                                { "name": "Win Rate","children":
+                                [{"name": "Win Rate:52.26%", "size": 52.26}]},
+                                { "name": "Games Played", "children":
+                                [{ "name": "Games Played:5004", "size": 5004}]},
+                                { "name": "K/D/A","children":
+                                [{ "name": "K/D/A:1.88", "size": 188}]},
+                                {"name": "CS", "children":
+                                [{ "name": "CS:233.56", "size": 233.56}]},
+                                {"name": "Gold Earned","children":
+                                [{ "name": "Gold Earned:12858", "size": 12858}]}
+
+                            ]},
+                            {"name": "Quinn", "children": [
+
+                                { "name": "Win Rate", "children":
+                                [{"name": "Win Rate:53.16%", "size": 53.16}]},
+                                { "name": "Games Played", "children":
+                                [{ "name": "Games Played:6198", "size": 6198}]},
+                                {"name": "K/D/A", "children":
+                                [{ "name": "K/D/A:2.13", "size": 213}]},
+                                {"name": "CS", "children":
+                                [{ "name": "CS:166.55", "size": 166.55}]},
+                                {"name": "Gold Earned","children":
+                                [{ "name": "Gold Earned:12277", "size": 12277}]}
+
+                            ]},
+                            {"name": "Kled", "children": [
+                                { "name": "Win Rate","children":
+                                [{"name": "Win Rate:53.78%", "size": 53.78}]},
+                                {"name": "Games Played",  "children":
+                                [{ "name": "Games Played:4957", "size": 4957}]},
+                                {"name": "K/D/A", "children":
+                                [{ "name": "K/D/A:2.62", "size": 262}]},
+                                {"name": "CS", "children":
+                                [{ "name": "CS:182.6", "size": 182.6}]},
+                                {"name": "Gold Earned","children":
+                                [{ "name": "Gold Earned:12009", "size": 12009}]}
+                            ]}
+
+                        ]
+                    }
+                ,
+                    {
+                        "name": "Mid","children": [
+
+
+                        {"name": "Swain","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:54.12%", "size": 54.12}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:6676", "size": 6676}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.5", "size": 250}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:191.42", "size": 191.42}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11707", "size": 11707}]}
+
+                        ]},
+                        {"name": "Anivia","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:54.89%", "size": 54.89}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:5582", "size": 5582}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.99", "size": 299}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:199.53", "size": 199.53}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12208", "size": 12208}]}
+
+                        ]},
+                        {"name": "Ahri","children": [
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.87%", "size": 53.87}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:13409", "size": 13409}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.83", "size": 283}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:197.74", "size": 197.74}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12211", "size": 12211}]}
+
+                        ]},
+                        {"name": "Fizz","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.03%", "size": 52.03}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:5228", "size": 5228}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.47", "size": 247}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:173.48", "size": 173.48}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11972", "size": 11972}]}
+
+                        ]},
+                        {"name": "Vel'Koz","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.6%", "size": 50.6}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:4672", "size": 4672}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.57", "size": 257}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:115.87", "size": 115.87}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11342", "size": 11342}]}
+                        ]}
+
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Jungle","children": [
+
+                        {"name": "Shaco", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:54.49%", "size": 54.49}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:9125", "size": 9125}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.64", "size": 264}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:139.2", "size": 139.2}]},
+                            {"children":
+                            [{ "name": "Gold Earned:12290", "size": 12290}]}
+
+                        ]},
+                        {"name": "Ivern", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:56.26%", "size": 56.26}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:8903", "size": 8903}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:4.11", "size": 411}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:85.41", "size": 85.41}]},
+                            {"children":
+                            [{ "name": "Gold Earned:10205", "size": 10205}]}
+
+                        ]},
+                        {"name": "Xin Zhao", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51%", "size": 51}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:4778", "size": 4778}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.86", "size": 286}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:174.33", "size": 174.33}]},
+                            {"children":
+                            [{ "name": "Gold Earned:11268", "size": 11268}]}
+
+                        ]},
+                        {"name": "Zac", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.9%", "size": 51.9}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:7075", "size": 7075}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.9", "size": 390}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:134.19", "size": 134.19}]},
+                            {"children":
+                            [{ "name": "Gold Earned:11171", "size": 11171}]}
+
+                        ]},
+                        {"name": "Amumu", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:47.21%", "size": 47.21}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:1165", "size": 1165}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.69", "size": 269}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:133.85", "size": 133.85}]},
+                            {"children":
+                            [{ "name": "Gold Earned:11088", "size": 11088}]}
+
+                        ]
+                        }
+                    ]
+                    }
+                ,
+                    {
+                        "name": "ADC", "children": [
+
+                        {"name": "Ziggs","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.63%", "size": 52.63}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:4583", "size": 4583}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.63", "size": 263}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:207.52", "size": 207.52}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12364", "size": 12364}]}
+
+                        ]},
+                        { "name": "Kog'Maw", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:54.97%", "size": 54.97}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:3709", "size": 3709}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.33", "size": 233}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:197.1", "size": 197.1}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12476", "size": 12476}]}
+                        ]},
+                        {"name": "Twitch","children": [
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.82%", "size": 52.82}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:5428", "size": 5428}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.54", "size": 254}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:180.98", "size": 180.98}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12400", "size": 12400}]}
+                        ]},
+                        {"name": "Vayne", "children": [
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:50.82%", "size": 50.82}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:7647", "size": 7647}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.1", "size": 210}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:200.33", "size": 200.33}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12235", "size": 12235}]}
+                        ]},
+                        {"name": "Caitlyn","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.71%", "size": 50.71}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:15201", "size": 15201}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.33", "size": 233}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:209.65", "size": 209.65}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12185", "size": 12185}]}
+                        ]}
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Support", "children": [
+
+                        {"name": "Sona", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.39%", "size": 53.39}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:6164", "size": 6164}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:3.11", "size": 311}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:25.07", "size": 25.07}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9515", "size": 9515}]}
+
+                        ]},
+                        { "name": "Janna", "children": [
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.84%", "size": 52.84}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:20020", "size": 20020}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:4.08", "size": 408}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:13.97", "size": 13.97}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:8701", "size": 8701}]}
+                        ]},
+                        {"name": "Blitzcrank", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.06%", "size": 53.06}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:12257", "size": 12257}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.75", "size": 275}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:40.37", "size": 40.37}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9055", "size": 9055}]}
+
+                        ]},
+                        {"name": "Soraka", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.38%", "size": 52.38}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:8371", "size": 8371}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.18", "size": 318}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:15.76", "size": 15.76}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:8546", "size": 8546}]}
+                        ]},
+                        {"name": "Nami", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.97%", "size": 50.97}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:12590", "size": 12590}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.68", "size": 368}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:14.3", "size": 14.3}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9049", "size": 9049}]}
+
+                        ]}
+                    ]
+                    }
+                ]
+            },
+            {
+                "name": "Platinium",
+                "children": [
+                    {
+                        "name": "Top","children": [
+
+                        {"name": "Malphite", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.14%", "size": 51.14}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:20138", "size": 20138}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.88", "size": 288}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:170.26", "size": 170.26}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11567", "size": 11567}]}
+
+                        ]},
+                        { "name": "Yorick", "children": [
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.73%", "size": 51.73}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:6667", "size": 6667}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.94", "size": 194}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:206.6", "size": 206.6}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12344", "size": 12344}]}
+                        ]},
+                        {"name": "Tryndamere", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.35%", "size": 52.35}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:18441", "size": 18441}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.79", "size": 179}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:236.58", "size": 236.58}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13317", "size": 13317}]}
+                        ]},
+                        { "name": "Quinn", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:53.16%", "size": 53.16}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:23256", "size": 23256}]},
+                            { "name": "Quin_K/D/A", "children":
+                            [{ "name": "K/D/A:2.18", "size": 218}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:169.15", "size": 169.15}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12753", "size": 12753}]}
+                        ]},
+                        {"name": "Kled", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.19%", "size": 51.19}]},
+                            {"name": "Games Played", "children":
+                            [{ "name": "Games Played:13101", "size": 13101}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.65", "size": 265}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:175.96", "size": 175.96}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12121", "size": 12121}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Mid", "children": [
+
+                        {"name": "Swain", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:54.43%", "size": 54.43}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:19523", "size": 19523}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.52", "size": 252}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:189.64", "size": 189.64}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12112", "size": 12112}]}
+
+                        ]},
+                        {"name": "Anivia", "children": [
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:54.25%", "size": 54.25}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:18128", "size": 18128}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.13", "size": 313}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:202.44", "size": 202.44}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12662", "size": 12662}]}
+                        ]},
+                        {"name": "Ahri", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.5%", "size": 53.5}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:45473", "size": 45473}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.76", "size": 276}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:192.58", "size": 192.58}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12396", "size": 12396}]}
+
+                        ]},
+                        {"name": "Fizz", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.99%", "size": 51.99}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:20358", "size": 20358}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.45", "size": 245}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:168.52", "size": 168.52}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12347", "size": 12347}]}
+
+                        ]},
+                        {"name": "Vel'Koz", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.59%", "size": 51.59}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:17526", "size": 17526}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.57", "size": 257}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:126.92", "size": 126.92}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11863", "size": 11863}]}
+
+
+                        ]
+                        }
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Jungle", "children": [
+
+                        { "name": "Shaco", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:54.73%", "size": 54.73}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:28856", "size": 28856}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.7", "size": 270}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:137.65", "size": 137.65}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12595", "size": 12595}]}
+
+                        ]},
+                        {"name": "Ivern","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:55.35%", "size": 55.35}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:19487", "size": 19487}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.98", "size": 398}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:82.29", "size": 82.29}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10579", "size": 10579}]}
+
+                        ]},
+                        {"name": "Xin Zhao", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.93%", "size": 51.93}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:12013", "size": 12013}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.1", "size": 210}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:139.1", "size": 139.1}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12071", "size": 12071}]}
+
+                        ]},
+                        {"name": "Zac","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.8%", "size": 50.8}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:20996", "size": 20996}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.83", "size": 383}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:128.69", "size": 128.69}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11396", "size": 11396}]}
+
+                        ]},
+                        {"name": "Amumu", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:49.08%", "size": 49.08}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:7168", "size": 7168}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.86", "size": 286}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:130.86", "size": 130.86}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11408", "size": 11408}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "ADC","children": [
+
+                        {"name": "Ziggs","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.62%", "size": 52.62}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:17616", "size": 17616}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.59", "size": 259}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:206.13", "size": 206.13}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12796", "size": 12796}]}
+
+                        ]},
+                        {"name": "Kog'Maw","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.47%", "size": 53.47}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:10500", "size": 10500}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.38", "size": 238}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:202.24", "size": 202.24}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13078", "size": 13078}]}
+
+                        ]},
+                        { "name": "Twitch", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.02%", "size": 52.02}]},
+                            { "children":
+                            [{ "name": "Games Played:18909", "size": 18909}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.51", "size": 251}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:185.76", "size": 185.76}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12821", "size": 12821}]}
+                        ]},
+                        { "name": "Vayne", "children": [
+
+                            { "name": "Win Rate", "children":
+                            [{"name": "Win Rate:49.49%", "size": 49.49}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:41947", "size": 41947}]},
+                            {"name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.09", "size": 209}]},
+                            {  "name": "CS","children":
+                            [{ "name": "CS:202.03", "size": 202.03}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12569", "size": 12569}]}
+
+                        ]},
+                        {"name": "Caitlyn", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:50.39%", "size": 50.39}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:58794", "size": 58794}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.34", "size": 234}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:212.2", "size": 212.2}]},
+                            {"children":
+                            [{ "name": "Gold Earned:12626", "size": 12626}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Support", "children": [
+
+                        { "name": "Sona","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:53.59%", "size": 53.59}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:22351", "size": 22351}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3", "size": 300}]},
+                            {"name": "CS","children":
+                            [{ "name": "CS:23.02", "size": 23.02}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9787", "size": 9787}]}
+
+                        ]},
+                        {"name": "Janna","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.59%", "size": 52.59}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:51098", "size": 51098}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:4.04", "size": 404}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:14.25", "size": 14.25}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9078", "size": 9078}]}
+
+                        ]},
+                        {"name": "Blitzcrank","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:53.03%", "size": 53.03}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:41321", "size": 41321}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.74", "size": 274}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:41.84", "size": 41.84}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9502", "size": 9502}]}
+
+                        ]},
+                        {"name": "Soraka","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.55%", "size": 52.55}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:24780", "size": 24780}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:3.21", "size": 321}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:16.41", "size": 16.41}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:8975", "size": 8975}]}
+
+                        ]},
+                        { "name": "Nami","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.29%", "size": 51.29}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:38360", "size": 38360}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:3.65", "size": 365}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:14.4", "size": 14.4}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9338", "size": 9338}]}
+                        ]}
+                    ]}
+                ]
+
+            },
+            {
+                "name": "Gold",
+                "children": [
+                    {
+                        "name": "Top", "children": [
+
+                        { "name": "Malphite","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.14%", "size": 51.14}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:45515", "size": 45515}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.91", "size": 291}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:157.16", "size": 157.16}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11671", "size": 11671}]}
+
+                        ]},
+                        {"name": "Yorick","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.62%", "size": 51.62}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:18352", "size": 18352}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.97", "size": 197}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:204.48", "size": 204.48}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12439", "size": 12439}]}
+
+                        ]},
+                        {"name": "Tryndamere", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.32%", "size": 52.32}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:42727", "size": 42727}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.82", "size": 182}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:232.83", "size": 232.83}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13545", "size": 13545}]}
+
+                        ]},
+                        {"name": "Quinn", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.53%", "size": 52.53}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:49890", "size": 49890}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.16", "size": 216}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:168.21", "size": 168.21}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12944", "size": 12944}]}
+
+                        ]},
+                        {"name": "Kled", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.54%", "size": 51.54}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:23095", "size": 23095}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.68", "size": 268}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:171.86", "size": 171.86}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12333", "size": 12333}]}
+
+                        ]}
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Mid", "children": [
+
+                        { "name": "Swain", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:54.23%", "size": 54.23}]},
+                            {"name": "Games Played", "children":
+                            [{ "name": "Games Played:39285", "size": 39285}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.54", "size": 254}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:185.09", "size": 185.09}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12258", "size": 12258}]}
+                        ]},
+                        {"name": "Anivia", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.64%", "size": 53.64}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:30352", "size": 30352}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.08", "size": 308}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:193.33", "size": 193.33}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12669", "size": 12669}]}
+
+                        ]},
+                        {"name": "Ahri", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:53.34%", "size": 53.34}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:91245", "size": 91245}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.73", "size": 273}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:187.21", "size": 187.21}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12531", "size": 12531}]}
+
+                        ]},
+                        {"name": "Fizz", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:50.95%", "size": 50.95}]},
+                            {"name": "Games Played", "children":
+                            [{ "name": "Games Played:45054", "size": 45054}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.39", "size": 239}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:160.29", "size": 160.29}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12425", "size": 12425}]}
+
+                        ]},
+                        { "name": "Vel'Koz", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.61%", "size": 51.61}]},
+                            { "name": "Games Played","children":
+                            [{ "name": "Games Played:40154", "size": 40154}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.54", "size": 254}]},
+                            {"name": "CS","children":
+                            [{ "name": "CS:128.99", "size": 128.99}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12150", "size": 12150}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Jungle", "children": [
+
+                        { "name": "Shaco", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:54.44%", "size": 54.44}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:57650", "size": 57650}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.66", "size": 266}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:132.08", "size": 132.08}]},
+                            {"children":
+                            [{ "name": "Gold Earned:12681", "size": 12681}]}
+
+                        ]},
+                        { "name": "Ivern", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.75%", "size": 53.75}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:32081", "size": 32081}]},
+                            {"name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.74", "size": 374}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:85.46", "size": 85.46}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10758", "size": 10758}]}
+                        ]},
+                        {"name": "Xin Zhao", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.85%", "size": 52.85}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:38672", "size": 38672}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.1", "size": 210}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:136.29", "size": 136.29}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12209", "size": 12209}]}
+
+                        ]},
+                        {"name": "Zac", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.08%", "size": 51.08}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:43396", "size": 43396}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:3.85", "size": 385}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:125.21", "size": 125.21}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11573", "size": 11573}]}
+
+                        ]},
+                        { "name": "Amumu", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.64%", "size": 50.64}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:24613", "size": 24613}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.93", "size": 293}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:128.71", "size": 128.71}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11635", "size": 11635}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "ADC", "children": [
+
+                        {"name": "Ziggs", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53%", "size": 53}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:43686", "size": 43686}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.55", "size": 255}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:199.84", "size": 199.84}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12927", "size": 12927}]}
+
+                        ]},
+                        {"name": "Kog'Maw", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.94%", "size": 52.94}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:17624", "size": 17624}]},
+                            {"name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.34", "size": 234}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:197.98", "size": 197.98}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13179", "size": 13179}]}
+
+                        ]},
+                        { "name": "Twitch", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.24%", "size": 52.24}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:41437", "size": 41437}]},
+                            {"name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.53", "size": 253}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:186.29", "size": 186.29}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13128", "size": 13128}]}
+
+                        ]},
+                        { "name": "Vayne", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.74%", "size": 49.74}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:107651", "size": 107651}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.09", "size": 209}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:200.21", "size": 200.21}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12815", "size": 12815}]}
+
+                        ]},
+                        {"name": "Caitlyn", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.9%", "size": 49.9}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:132681", "size": 132681}]},
+                            { "name": "K/D/A","children":
+                            [{ "name": "K/D/A:2.34", "size": 234}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:209.31", "size": 209.31}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12789", "size": 12789}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Support", "children": [
+
+                        { "name": "Sona", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.89%", "size": 53.89}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:50452", "size": 50452}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.95", "size": 295}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:23.29", "size": 23.29}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10055", "size": 10055}]}
+
+                        ]},
+                        {"name": "Janna", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.69%", "size": 52.69}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:77987", "size": 77987}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.95", "size": 395}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:14.44", "size": 14.44}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9346", "size": 9346}]}
+
+                        ]},
+                        {"name": "Blitzcrank", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.91%", "size": 52.91}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:90951", "size": 90951}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.73", "size": 273}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:43.28", "size": 43.28}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9760", "size": 9760}]}
+
+                        ]},
+                        {"name": "Soraka", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.7%", "size": 52.7}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:50898", "size": 50898}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.19", "size": 319}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:17.87", "size": 17.87}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9272", "size": 9272}]}
+
+                        ]},
+                        {"name": "Nami", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.8%", "size": 51.8}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:73285", "size": 73285}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:3.6", "size": 360}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:14.87", "size": 14.87}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9632", "size": 9632}]}
+
+                        ]}
+                    ]
+                    }
+                ]
+            },
+            {
+                "name": "Silver",
+                "children": [
+                    {
+                        "name": "Top", "children": [
+
+                        {"name": "Malphite","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.55%", "size": 50.55}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:96785", "size": 96785}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.9", "size": 290}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:138.35", "size": 138.35}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11498", "size": 11498}]}
+
+                        ]},
+                        {"name": "Yorick", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.76%", "size": 51.76}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:47444", "size": 47444}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.01", "size": 201}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:198.86", "size": 198.86}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12469", "size": 12469}]}
+
+                        ]},
+                        {"name": "Tryndamere", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.04%", "size": 51.04}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:89547", "size": 89547}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.85", "size": 185}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:219.55", "size": 219.55}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12858", "size": 13393}]}
+
+                        ]},
+                        {"name": "Quinn", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:50.76%", "size": 50.76}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:92361", "size": 92361}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.12", "size": 212}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:163.43", "size": 163.43}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12823", "size": 12823}]}
+
+                        ]},
+                        {"name": "Kled", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:49.67%", "size": 49.67}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:39936", "size": 39936}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.56", "size": 256}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:161.18", "size": 161.18}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12009", "size": 12180}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Mid", "children": [
+
+                        { "name": "Swain", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.88%", "size": 52.88}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:75315", "size": 75315}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.55", "size": 255}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:175.63", "size": 175.63}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12195", "size": 12195}]}
+
+                        ]},
+                        {"name": "Anivia", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.63%", "size": 52.63}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:54002", "size": 54002}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.93", "size": 293}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:180.79", "size": 180.79}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12586", "size": 12586}]}
+
+                        ]},
+                        {"name": "Ahri", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.09%", "size": 52.09}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:159435", "size": 159435}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.66", "size": 266}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:175.8", "size": 175.8}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12382", "size": 12382}]}
+
+                        ]},
+                        {"name": "Fizz", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.51%", "size": 49.51}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:87234", "size": 87234}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.35", "size": 235}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:149.3", "size": 149.3}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12403", "size": 12403}]}
+
+                        ]},
+                        {"name": "Vel'Koz", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.12", "size": 51.12}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:69409", "size": 69409}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.5", "size": 250}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:130.64", "size": 130.64}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12191", "size": 12191}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Jungle","children": [
+
+                        {"name": "Shaco", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.18%", "size": 52.18}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:97882", "size": 97882}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.51", "size": 251}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:122.45", "size": 122.45}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12454", "size": 12454}]}
+
+                        ]},
+                        {"name": "Ivern","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.99%", "size": 50.99}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:50139", "size": 50139}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:3.36", "size": 336}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:82.68", "size": 82.68}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10727", "size": 10727}]}
+
+                        ]},
+                        {"name": "Xin Zhao", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.2%", "size": 52.2}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:99694", "size": 99694}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.05", "size": 205}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:129.47", "size": 129.47}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12190", "size": 12190}]}
+
+                        ]},
+                        {"name": "Zac", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.03%", "size": 51.03}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:79525", "size": 79525}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.71", "size": 371}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:119.83", "size": 119.83}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11535", "size": 11535}]}
+
+                        ]},
+                        {"name": "Amumu","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.54%", "size": 51.54}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:72255", "size": 72255}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.91", "size": 291}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:123.27", "size": 123.27}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11644", "size": 11644}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "ADC","children": [
+
+                        {"name": "Ziggs","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.92%", "size": 51.92}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:83807", "size": 83807}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.43", "size": 243}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:185.48", "size": 185.48}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12749", "size": 12749}]}
+
+                        ]},
+                        {"name": "Kog'Maw","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.95%", "size": 50.95}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:27806", "size": 27806}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.29", "size": 229}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:188.69", "size": 188.69}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:13127", "size": 13127}]}
+
+                        ]},
+                        {"name": "Twitch", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.38%", "size": 50.38}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:83095", "size": 83095}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.45", "size": 245}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:177.78", "size": 177.78}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12944", "size": 12944}]}
+
+                        ]},
+                        {"name": "Vayne", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:48.55%", "size": 48.55}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:206013", "size": 206013}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.05", "size": 205}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:190.1", "size": 190.1}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12714", "size": 12714}]}
+
+                        ]},
+                        {"name": "Caitlyn", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:48.62%", "size": 48.62}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:248513", "size": 248513}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.31", "size": 231}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:199.82", "size": 199.82}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12690", "size": 12690}]}
+
+                        ]}
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Support","children": [
+
+                        {"name": "Sona","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:53.61%", "size": 53.61}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:127550", "size": 127550}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.91", "size": 291}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:22.87", "size": 22.87}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10169", "size": 10169}]}
+                        ]},
+                        {"name": "Janna", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:51.89%", "size": 51.89}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:103702", "size": 103702}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.75", "size": 375}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:14.87", "size": 14.87}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9497", "size": 9497}]}
+
+                        ]},
+                        {"name": "Blitzcrank","children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:52.31%", "size": 52.31}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:184819", "size": 184819}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.66", "size": 266}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:43.15", "size": 43.15}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9849", "size": 9849}]}
+
+                        ]},
+                        {"name": "Soraka", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:52.11%", "size": 52.11}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:101811", "size": 101811}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.08", "size": 308}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:20.02", "size": 20.02}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9446", "size": 9446}]}
+
+                        ]},
+                        {"name": "Nami", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:50.74%", "size": 50.74}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:114449", "size": 114449}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.45", "size": 345}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:14.82", "size": 14.82}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9733", "size": 9733}]}
+
+                        ]}
+                    ]
+                    }
+                ]
+            },
+            {
+                "name": "Bronze",
+                "children": [
+                    {
+                        "name": "Top","children": [
+
+                        {"name": "Malphite", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:48.3%", "size": 48.3}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:63859", "size": 63859}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.74", "size": 274}]},
+                            { "children":
+                            [{ "name": "CS:114.5", "size": 114.5}]},
+                            {"children":
+                            [{ "name": "Gold Earned:11241", "size": 11241}]}
+
+                        ]},
+                        {"name": "Yorick", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.22%", "size": 51.22}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:37676", "size": 37676}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.01", "size": 201}]},
+                            { "children":
+                            [{ "name": "CS:184.12", "size": 184.12}]},
+                            {"children":
+                            [{ "name": "Gold Earned:12274", "size": 12274}]}
+
+                        ]},
+                        {"name": "Tryndamere", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.38%", "size": 49.38}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:74377", "size": 74377}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.87", "size": 187}]},
+                            { "children":
+                            [{ "name": "CS:194.44", "size": 194.44}]},
+                            {"children":
+                            [{ "name": "Gold Earned:13069", "size": 13069}]}
+
+                        ]},
+                        {"name": "Quinn", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:47.66%", "size": 47.66}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:58478", "size": 58478}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.03", "size": 203}]},
+                            { "children":
+                            [{ "name": "CS:151.58", "size": 151.58}]},
+                            {"children":
+                            [{ "name": "Gold Earned:12543", "size": 12543}]}
+
+                        ]},
+                        { "name": "Kled", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:47.52%", "size": 47.52}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:22602", "size": 22602}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.39", "size": 239}]},
+                            { "children":
+                            [{ "name": "CS:141.87", "size": 141.87}]},
+                            {"children":
+                            [{ "name": "Gold Earned:11813", "size": 11813}]}
+
+                        ]}
+
+                    ]
+                    }
+                ,
+                    {
+                        "name": "Mid", "children": [
+
+                        {"name": "Win Rate","name": "Swain","children": [
+
+                            { "children":
+                            [{"name": "Win Rate:50.61%", "size": 50.61}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:44105", "size": 44105}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.48", "size": 248}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:160.34", "size": 160.34}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12027", "size": 12027}]}
+
+                        ]},
+                        {"name": "Anivia","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.05%", "size": 50.05}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:31874", "size": 31874}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.72", "size": 272}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:153.75", "size": 153.75}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12138", "size": 12138}]}
+
+                        ]},
+                        {"name": "Ahri", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:49.44%", "size": 49.44}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:86314", "size": 86314}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.5", "size": 250}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:156.63", "size": 156.63}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12055", "size": 12055}]}
+
+                        ]},
+                        {"name": "Fizz", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:47.14%", "size": 47.14}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:57439", "size": 57439}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.25", "size": 225}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:131.56", "size": 131.56}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12130", "size": 12130}]}
+
+                        ]},
+                        {"name": "Vel'Koz", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:49.48", "size": 49.48}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:39876", "size": 39876}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.39", "size": 239}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:131.65", "size": 131.65}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12102", "size": 12102}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Jungle", "children": [
+
+                        {"name": "Shaco", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:48.71%", "size": 48.71}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:54223", "size": 54223}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.29", "size": 229}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:108.85", "size": 108.85}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12104", "size": 12104}]}
+
+                        ]},
+                        {"name": "Ivern", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:46.14%", "size": 46.14}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:23806", "size": 23806}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.76", "size": 276}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:76.43", "size": 76.43}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10548", "size": 10548}]}
+
+                        ]},
+                        {"name": "Xin Zhao", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.6%", "size": 50.6}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:102247", "size": 102247}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.92", "size": 192}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:121.24", "size": 121.24}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12138", "size": 12138}]}
+
+                        ]},
+                        { "name": "Zac", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.39%", "size": 49.39}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:41495", "size": 41495}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.43", "size": 343}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:112.44", "size": 112.44}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11423", "size": 11423}]}
+
+                        ]},
+                        {"name": "Amumu", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.37%", "size": 50.37}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:56445", "size": 56445}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.74", "size": 274}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:113.86", "size": 113.86}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:11529", "size": 11529}]}
+                        ]}
+
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "ADC", "children": [
+
+                        {"name": "Ziggs", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:49.55%", "size": 49.55}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:53549", "size": 53549}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.24", "size": 224}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:164.37", "size": 164.37}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12367", "size": 12367}]}
+
+                        ]},
+                        {"name": "Kog'Maw", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:48.19%", "size": 48.19}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:14372", "size": 14372}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.1", "size": 210}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:168.22", "size": 168.22}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12798", "size": 12798}]}
+
+                        ]},
+                        {"name": "Twitch", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:47.75%", "size": 47.75}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:61045", "size": 61045}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.27", "size": 227}]},
+                            {"name": "CS", "children":
+                            [{ "name": "CS:162.05", "size": 162.05}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12640", "size": 12640}]}
+
+                        ]},
+                        {"name": "Vayne", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:46.39%", "size": 46.39}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:112887", "size": 112887}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:1.95", "size": 195}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:170.33", "size": 170.33}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12433", "size": 12433}]}
+
+                        ]},
+                        {"name": "Caitlyn", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:46.66%", "size": 46.66}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:140842", "size": 140842}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.22", "size": 222}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:180.94", "size": 180.94}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:12398", "size": 12398}]}
+
+                        ]}
+                    ]
+                    }
+
+                ,
+                    {
+                        "name": "Support", "children": [
+
+                        {"name": "Sona", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:51.18%", "size": 51.18}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:112633", "size": 112633}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:2.79", "size": 279}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:23.92", "size": 23.92}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:10242", "size": 10242}]}
+
+                        ]},
+                        {"name": "Janna", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:48.5%", "size": 48.5}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:40298", "size": 40298}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.27", "size": 327}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:17.56", "size": 17.56}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9596", "size": 9596}]}
+
+                        ]},
+                        {"name": "Blitzcrank", "children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:50.23%", "size": 50.23}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:125647", "size": 125647}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.51", "size": 251}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:43.37", "size": 43.37}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9055", "size": 9905}]}
+
+                        ]},
+                        {"name": "Soraka", "children": [
+
+                            {"name": "Win Rate", "children":
+                            [{"name": "Win Rate:48.53%", "size": 48.53}]},
+                            {"name": "Games Played",  "children":
+                            [{ "name": "Games Played:73650", "size": 73650}]},
+                            {"name": "K/D/A",  "children":
+                            [{ "name": "K/D/A:2.8", "size": 280}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:23.53", "size": 23.53}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9620", "size": 9620}]}
+
+                        ]},
+                        {"name": "Nami","children": [
+
+                            { "name": "Win Rate","children":
+                            [{"name": "Win Rate:48.12%", "size": 48.12}]},
+                            { "name": "Games Played", "children":
+                            [{ "name": "Games Played:58241", "size": 58241}]},
+                            { "name": "K/D/A", "children":
+                            [{ "name": "K/D/A:3.17", "size": 317}]},
+                            { "name": "CS","children":
+                            [{ "name": "CS:16.95", "size": 16.95}]},
+                            {"name": "Gold Earned","children":
+                            [{ "name": "Gold Earned:9828", "size": 9828}]}
+                        ]}
+                    ]
+                    }
+                ]
+            }
+
+        ]
+
+        }
+    ]
+
+}
